@@ -3,11 +3,3 @@ public class RJava19 {
         
     }
 }
-
-/**
- * InnerRJava19
- */
-public interface InnerRJava19 {
-
-    
-}
