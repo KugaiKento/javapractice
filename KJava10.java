@@ -19,5 +19,7 @@ public class KJava10 {
         int mc2 = Scanner.nextInt();
         num = mc1 * mc2;
         System.out.println(num);
+
+        Scanner.close();
     }
 }

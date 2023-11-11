@@ -8,5 +8,7 @@ public class KJava11 {
         TenfoldShifter shifter = new TenfoldShifter(value);
         int result = shifter.getResult();
         System.out.println("10倍した結果"+result);
+
+        Scanner.close();
     }
 }
