@@ -7,5 +7,7 @@ public class KJava16 {
         int month = Scanner.nextInt();
         SeasonDetector season = new SeasonDetector(month);
         season.month();
+
+        Scanner.close();
     }
 }
