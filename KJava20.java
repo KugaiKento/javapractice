@@ -1,5 +1,8 @@
+import java.nio.charset.Charset;
+
 public class KJava20 {
         public static void main(String[] args) {
-          System.out.println(System.getProperty("file.encoding"));
+          Charset defaultCharset = Charset.defaultCharset();
+        System.out.println("Default Encoding: " + defaultCharset.displayName());
         }
 }
